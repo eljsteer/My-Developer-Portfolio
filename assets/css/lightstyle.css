@@ -1,3 +1,12 @@
+:root {
+    --darktext: ;
+    --lighttext: ;
+    --darkmode: ;
+    --lightmode: ;
+    --projborder: rgb(64, 85, 64); 
+
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -5,47 +14,105 @@
 }
 
 body {
-background-color: rgb(149, 228, 195);
+    background-color: #d9f6e9;
+    display: flex;
+    flex-direction: column;
 }
 
-.title-header h1 {
-    display: inline-block;
+/*All Header Formatting Elements*/
+header {
+    width: 100%;
+    /* position: fixed; */
+    top: 0px;
+    height: 80px;
+    display: inline-flex;
+    justify-content: space-between;  
+    background-color: #d9f6e9;
+    z-index: 1;
 }
 
 h1 {
     color: #000;
     text-transform: uppercase;
+    font-size: 36px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
-    padding: 20px;
-    margin: 20px;
-
+    padding: 24px;
 }
 
 .links {
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif ;
+    padding: 28px;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+}
+.links ul li {
+    display: inline-flex;
+    padding-left: 4vw;
+}
+
+/*Subtitle Intro Text Formatting Elements*/
+.intro {
     display: flex;
-    float: right;
-    padding: 20px;
-    margin: 20px;
+    justify-content: center;
 }
 
-.links ul {
-    display: inline-flex;
+.intro_h2 {
+    justify-content: center;
+    font-size: 32px;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 60px;
 }
+.intro_p {
+    
+    display:flex;
+    justify-content: center;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
 
-
-.project-container {
-    display: inline-flex;
-    background-color: black;
+}
+/*All Project's Sections Formatting Elements*/
+/* Main Project */
+#projects {
+    margin: 40px 80px 40px 80px;
+}
+.main-project {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
     margin: 10px;
-   }
-
-.project-cards {
-    margin: 10px;
+    
+}
+#project-uno img {
+    max-width: 100%;
+    height: auto;
+    border: 6px solid var(--projborder);
 }
 
-
-
+/* Secondary Project */
+.secondary-projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 10px 10px 10px;
+}
+.project-cards img {
+    max-width: 100%;
+    min-height: 200px;
+    height: auto;
+    display: block;
+    border: 6px solid var(--projborder);
+    margin: 10px;
+}
 
 /* Site resizing for different viewports - Small screens e.g. Phones */
 @media only screen and (max-width: 600px) {

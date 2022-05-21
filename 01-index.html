@@ -12,56 +12,54 @@
 </head>
 
 <body>
-<header>
-    <div class="title-header">
+<!--Main Navigation Header-->
+    <header>
         <h1>Jason Steer</h1>
-    </div>
-    <nav class="links">
-        <ul>
-            <li><a id="about-link" href="02-aboutme.html">About Me</a></li>
-            <li><a id="project-link" href="#project-uno">Projects</a></li>
-            <li><a id="contact-link" href="#contact">Contact</a></li>
-            <li><a id="credit-link" href="03-credits.html">Credits</a></li> 
-        </ul>
-    </nav>
-</header>
+        <nav class="links">
+            <ul>
+                <li><a id="about-link" href="01-index.html">Home</a></li>
+                <li><a id="about-link" href="02-aboutme.html">About</a></li>
+                <li><a id="project-link" href="#mainproject">Projects</a></li>
+                <li><a id="contact-link" href="#contact">Contact</a></li>
+                <li><a id="credit-link" href="03-credits.html">Credits</a></li> 
+            </ul>
+        </nav>
+    </header>
 
-<!--Main Project Showcase-->
-<main>
-    <div class="project-container">
-        <div class="project-cards" id="project-uno">
-            <figure><img src="assets/images/javascript.png" alt="Project javascript"></figure>
+<!--Intro Subtitle-->
+    <section>
+        <div class="intro">
+            <h2 class="intro_h2">My Portfolio</h2> 
         </div>
-        <div class="project-cards" id="project-dos">
-            <figure><img src="assets/images/nodejs_light.png" alt="Project nodejs"></figure>
+        <p class="intro_p">Browse My Curated Collection of Projects</p>
+    </section>
+
+    <!--Main Project Showcase-->
+    <main id="projects">
+        <div class="main-project">
+                <figure id="project-uno"><img src="assets/images/mern_light.jpeg" alt="Project mern"></figure>
         </div>
-        <div class="project-cards" id="project-tres">
-            <figure><img src="assets/images/mysql_light.png" alt="Project mysql"></figure>
+        <div class="secondary-projects">
+            <div class="project-cards" >
+                <figure id="project-dos"><img src="assets/images/mongodb.png" alt="Project mongodb"></figure>
+            </div>
+            <div class="project-cards">
+                <figure id="project-tres"><img src="assets/images/javascript.png" alt="Project javascript"></figure>
+            </div>
+            <div class="project-cards">
+                <figure id="project-cinco"><img src="assets/images/mysql_light.png" alt="Project mysql"></figure>
+            </div>
+            <div class="project-cards" >
+                <figure id="project-cuatro"><img src="assets/images/nodejs_light.png" alt="Project nodejs"></figure>
+            </div>
         </div>
-        <div class="project-cards" id="project-cuatro">
-            <figure><img src="assets/images/mongodb.png" alt="Project mongodb"></figure>
+    </main>
+
+    <footer>
+        <div>
+            <p>Created with <span img="" alt=""></span> by eljsteer</p>
         </div>
-        <div class="project-cards" id="project-cinco">
-            <figure><img src="assets/images/mern_light.jpeg" alt="Project mern"></figure>
-        </div>
-        <div class="project-cards" id="project-seis">
-            <figure><img src="assets/images/react_light.png" alt="Project react"></figure>
-        </div>
-    </div>
-</main>
-
-<aside>
-
-</aside>
-
-<footer>
-    <div>
-        <p>Created with <span img="" alt=""></span> by eljsteer</p>
-
-    </div>
-</footer>
-
-
+    </footer>
 </body>
 
 </html>
