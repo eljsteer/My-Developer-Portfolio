@@ -7,6 +7,7 @@
     <title>Developer Portfolio</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/lightstyle.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/transitions.css">
     <link rel="stylesheet" type="text/css" href="assets/css/darkstyle.css">
     <link rel="html" type="text/html" href="aboutme.html">
 </head>
@@ -20,7 +21,7 @@
                 <li><a id="home-link" href="01-index.html">Home</a></li>
                 <li><a id="about-link" href="02-aboutme.html">About</a></li>
                 <li><a id="project-link" href="#mainproject">Projects</a></li>
-                <li><a id="contact-link" href="#contact">Contact</a></li>
+                <li><a id="contact-link" href="#contactid">Contact</a></li>
                 <li><a id="credit-link" href="03-credits.html">Credits</a></li> 
             </ul>
         </nav>
@@ -42,16 +43,31 @@
         <div class="secondary-projects">
             <div class="project-cards" >
                 <figure id="project-dos"><img src="assets/images/mongodb.png" alt="Project mongodb"></figure>
+                <div class="card_overlay">
+                    <h2 class="card_title">MongoDB</h2>
+                    <p class="card_description">Project based around MongoDB</p>
+                </div> 
             </div>
             <div class="project-cards">
                 <figure id="project-tres"><img src="assets/images/javascript.png" alt="Project javascript"></figure>
+                <div class="card_overlay">
+                    <h2 class="card_title">Javascript</h2>
+                    <p class="card_description">Project based around Javascript language</p>
+                </div>
             </div>
             <div class="project-cards">
                 <figure id="project-cinco"><img src="assets/images/mysql_light.png" alt="Project mysql"></figure>
+                <div class="card_overlay">
+                    <h2 class="card_title">MySQL</h2>
+                    <p class="card_description">Project based around MySQL and SQL language</p>
+                </div>
             </div>
             <div class="project-cards" >
                 <figure id="project-cuatro"><img src="assets/images/nodejs_light.png" alt="Project nodejs"></figure>
-                <!-- <div class="card-title"><h2>nodejs</h2></div> -->
+                <div class="card_overlay">
+                    <h2 class="card_title">NodeJS</h2>
+                    <p class="card_description">Project based around the NodeJS tool</p>
+                </div>
             </div>
         </div>
     </main>
@@ -63,8 +79,9 @@
             <div class="contact-details">    
                 <ul>
                     <li><a data-replace="04 0588 4740"><span>Phone#</span></a></li>
-                    <li>Email</li>
-                    <li><a id="linkedin-link" href="https://www.linkedin.com/in/jason-steer-52736776/">LinkedIn</a></li>
+                    <li><a data-replace="el.jsteer@gmail.com"><span>Email</span></a></li>
+                    <li><a href="https://github.com/eljsteer" data-replace="GitHub Link"><span>GitHub</span></li>
+                    <li><a id="linkedin-link" href="https://www.linkedin.com/in/jason-steer-52736776/" data-replace="LinkedIn Link"><span>LinkedIn</span></li>
                 </ul>
             </div>    
         </div>
