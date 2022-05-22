@@ -15,8 +15,7 @@
 
 body {
     background-color: #d9f6e9;
-    display: flex;
-    flex-direction: column;
+
 }
 
 /*All Header Formatting Elements*/
@@ -81,16 +80,17 @@ a {
 }
 /*All Project's Sections Formatting Elements*/
 /* Main Project */
-#projects {
-    margin: 40px 80px 40px 80px;
+#projectsid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px 10vw 0px 10vw;
+
 }
 .main-project {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
-    margin: 10px;
-    
+    margin: 40px 10vw 0px 10vw;
 }
 #project-uno img {
     max-width: 100%;
@@ -101,22 +101,61 @@ a {
 /* Secondary Project */
 .secondary-projects {
     display: flex;
+    max-width: 800px;
+    max-height: 800px;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    margin: 10px 10px 10px 10px;
+    padding: 40px 0px;
+    margin: auto;
 }
 .project-cards img {
     max-width: 100%;
-    min-height: 200px;
+    max-height: 600px;
     height: auto;
     display: block;
     border: 6px solid var(--projborder);
-    margin: 10px;
+    margin: 20px 20px;
+}
+/* Contact Section Formatting */
+#contactid {
+    display: flex;
+    justify-content: center;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 80vw;
+    padding: 30px;
+    border-top: 2px solid black;
 }
 
+.contact h2 {
+    font-size: 24px;
+    position: absolute;
+    left: 2%;
+}
+
+.contact-details ul li {
+    display: inline-flex;
+    font-size: 20px;
+    padding: 0px 20px 0px 20px;
+}
+
+/*Footer Credit Formatting*/
+.footer {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.footer 
 /* Site resizing for different viewports - Small screens e.g. Phones */
 @media only screen and (max-width: 600px) {
-    
 }
 
 /* Small devices (portrait tablets and large phones, under 768) */
