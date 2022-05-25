@@ -1,4 +1,45 @@
-/*Project Image Transitions*/
+#project_uno {
+    position: relative;
+}
+.main_card_overlay {
+    position: absolute;
+    bottom:50px;
+    max-width: 250px;
+    max-height:100px;
+    padding:40px;
+    color:#ffffff;
+    background-color: var(--projlabel);
+    font-family: sans-serif;
+    opacity:0;
+    transition: opacity 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_card_title {
+    font-size: 1.5em;
+}
+
+.main_card_description {
+    text-align: center;
+    white-space: wrap;
+}
+
+.main_card_overlay:hover {
+    opacity: 1;
+}
+
+.main_card_overlay > * {
+    transform: translateY(10px);
+    transition: transform 0.5s
+}
+.main_card_overlay:hover > * {
+    transform: translateY(0);
+}
+
+/*Secondary Project Image Transitions*/
 .card_overlay {
     position: absolute;
     top: 20px;
