@@ -180,6 +180,9 @@ a {
     font-weight: bold;
     padding: 40px;
 }
+.arrow:hover {
+    text-shadow: 0 0 5px #048166;
+}
 
 /*About Me Page Formatting*/
 
@@ -315,9 +318,6 @@ a {
     width: 60%;
 }
 
-.arrow:hover {
-    text-shadow: 0 0 5px #048166;
-}
 @media only screen and (max-width: 1300px) {
     .contact h2 {
         position: relative;

@@ -7,12 +7,10 @@ A showcase developer portfolio displaying all my projects that I have created an
 
 ## Updates
 
--   Addition of semantic elements to the website to improve accssibility for screen readers
--   Addition of comments for subsequent developers to quickly and easily pick up the code and make further changes and improvements.
--   Improvements to the navigation around the site with corrected links and highlighting to links when the user hovers over link to improve navigation around site for users who have visual impairments and not able to easily follow mouse movement.
--   Scout ruling applied by cleaning up the css code by collating multiple elements and simplifying the code. Also improved the layout of the html code by adding line spaces between semantic coe sections.
--   Updated titles to provide more clarity for the code.
--   Addition of Alt elements with detailed image description text to all images to improve accesibility.
+-   Added 3 x html files and with basic website structure
+-   Added 3 x css files (1x reset file to clear default values and one for formatting website and one for animations)
+-   Added accessibility with semantics and updated all formatting on website for the 3 x webpages using css.
+-   Once the basic formatting on the website, typography and color schemes have been completed I added links t
 
 ## Skills and Knowledge learned
 
