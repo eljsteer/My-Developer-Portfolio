@@ -29,17 +29,17 @@ I learned a lot from all aspects on this project.
 -  Basically just learnt everything except for the very basics as this was my first major project and was a real test of my problem-solving skills and planning skills.
 
 ## Website Example Images
-##### Navbar
+### Navbar
 ![Page1-navbar](assets/images/page1-top.jpg)
-##### About Me Section
+### About Me Section
 ![Page1 About Me Section](assets/images/page1-aboutme.jpg)
-##### My Portfolio Section
+### My Portfolio Section
 ![Page1 My portfolio section](assets/images/page1-myportfolio.jpg)
-##### Contacts Section
+### Contacts Section
 ![Page1 mM Contacts Section](assets/images/page1-contactbttm.jpg)
-##### Credits page
+### Credits page
 ![Page2 Credits Page](assets/images/page2-credits.jpg)
-##### Application placeholder Section
+### Application placeholder Section
 ![Page3 Application Placeholder Page with hand sequentially tappping fingers waiting gif](assets/images/page3-applicationplaceholder.jpg)
 
 ## Credits
